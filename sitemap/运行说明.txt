@@ -1,0 +1,22 @@
+将压缩包中的curl32放入任意磁盘目录下，配置环境变量，打开cmd > 输入curl > 出现 --help 配置成功
+
+安装python3 脚本python版本为3.6版本，安装好测试python环境变量：cmd > python 出现 >>> 配置成功
+
+修改url.py  共修改两处:
+	1: 修改11行：
+		报价网站：arr = fileContent('./baojia.txt')
+		轴承：arr = fileContent('./urls.txt')
+	2：修改22行：
+		报价网站：path = 'C:/Users/adminisiator/Desktop/baojia' （示例）
+		轴承：path = 'C:/Users/adminisiator/Desktop/urls'  （示例）
+		
+修改sitemap.py 共修改两处：
+1：修改4行：
+	报价网站：path = 'C:/Users/adminisiator/Desktop/baojia'   （示例）
+	轴承：path = 'C:/Users/adminisiator/Desktop/urls'   （示例）
+2：修改5行：
+	domain = '网站的域名'    
+
+修改site.bat 将对应的路径改成自己的
+
+双击site.bat文件

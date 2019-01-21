@@ -1,0 +1,5 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+zc.mrobay.com	FALSE	/	FALSE		JSESSIONID	82004A9E4F5E97009212AAD6512EC76B
